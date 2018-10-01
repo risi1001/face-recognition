@@ -9,7 +9,7 @@ def getImagesAndLabels(path):
     #get the path of all the files in the folder
     imagePaths=[os.path.join(path,f) for f in os.listdir(path)] 
     #create empth face list
-    faceSamples=[1,2,3]
+    faceSamples=[]
     #create empty ID list
     Ids=[]
     #now looping through all the image paths and loading the Ids and the images
