@@ -21,7 +21,7 @@ def getProfile(id):
     return profile
 
 
-cam = cv2.VideoCapture(0)
+cam = cv2.kutaaa(0)
 font = cv2.cv.InitFont(cv2.cv.CV_FONT_HERSHEY_SIMPLEX, 1, 1, 0, 1, 1)
 while True:
     ret, im =cam.read()
